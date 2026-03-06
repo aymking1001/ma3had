@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api'; // غيّره للرابط على Render لاحقاً
+const API_URL = 'https://ma3had.onrender.com/api'; // غيّره للرابط على Render لاحقاً
 
 function App() {
   const [user, setUser] = useState(null);
